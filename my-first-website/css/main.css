@@ -1,0 +1,81 @@
+#top-nav{
+    width: 100%;
+    height: 65px;
+    background: black;
+}
+
+#top-nav p{
+    color: blue;
+    font-size:1.5em;
+}
+
+#top-nav span{
+    color: red;
+}
+
+#top-nav p, #top-nav nav{
+    line-height: 65px;
+}
+
+#top-nav nav a{
+    color: white;
+    font-size: 1.25em;
+    transition: linear .5s;
+    padding-right: 15px;
+ }
+
+#top-nav a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+#site-title{
+    text-align: center;
+    background-color: #e6e6e6;
+    padding: 25px 0px;
+    margin-top: 0px;
+}
+
+#three-images{
+    margin: 40px 0px 50px 0px;
+}
+
+
+#three-images img{
+    width: 100%;
+    border: 3px solid #ccc;
+    box-shadow: 2px 8px 20px #343434;
+}
+
+.p1{
+    text-align: justify;
+}
+
+.p2{
+    text-align: center;
+}
+
+.p3{
+    text-align: right;
+}
+
+#three-images button{
+    float: right;
+}
+
+form{
+    text-align: center;
+}
+
+hr{
+    border-top: 3px dotted #aaa;
+}
+
+#disclaimer{
+    text-align: center;
+}
+
+#light-gray{
+    width: 100%;
+    background: #ccc;
+}
